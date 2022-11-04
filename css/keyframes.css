@@ -1,0 +1,19 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slideToRight {
+    from{
+        left: -100%;
+    }
+
+    to {
+        left: 0;
+    }
+}
